@@ -50,7 +50,7 @@ ul {
  */
 
 .entry-header h1 {
-    margin: 2.4em 0 1.6em;
+    margin: 1em 0 1em;
     font-size: 2.4em;
 }
 .entry-content a {
@@ -86,9 +86,7 @@ ul.buttons li a:hover {
     text-decoration: underline;
 }
 .home .banner, .archive .banner, .single .entry-header, .page .entry-header {
-    padding: 1.6em;
-    color: #fff;
-    background-color: rgba(59,148,217,0.8);
+    border-top: 4px solid #000;
     margin-bottom: 2em;
 }
 

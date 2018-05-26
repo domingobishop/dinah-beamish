@@ -8,7 +8,10 @@
                 <?php get_template_part( 'partials/header-banner' ); ?>
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
+                        <div class="col-md-4">
+                            <?php get_sidebar(); ?>
+                        </div>
+                        <div class="col-md-8">
                             <div class="entry-content">
                                 <?php the_content(); ?>
                             </div>

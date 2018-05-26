@@ -1,7 +1,7 @@
-<div class="container-fluid">
+<div class="container">
     <div class="row">
-        <div class="header-container" <?php echo get_feature_image_as_bg()?>>
-            <div class="entry-header clearfix text-center">
+        <div class="col-md-12">
+            <div class="entry-header clearfix">
                 <h1>
                     <?php the_title(); ?>
                 </h1>
