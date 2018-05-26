@@ -108,7 +108,7 @@ ul.buttons li a:hover {
     text-transform: uppercase;
     border-radius: 0;
     border: none;
-    background: #eee;
+    background: #fff;
     border-top: solid 4px #000;
     padding-top: 0.6em;
 }
@@ -158,22 +158,11 @@ footer .site-info {
  * Home
  * ----------------------------------------------------------------------------
  */
-
-.banner h1 {
-    font-size: 4em;
-    margin: 1.6em 0 0.5em;
-}
-
-.cat-nav {
-    margin-bottom: 1em;
-}
-
-.cat-nav .btn {
-    margin-bottom: 0.5em;
-}
-
-.paged-posts {
+.carousel {
     margin-bottom: 1.6em;
+}
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
 }
 
 nav .previous {
