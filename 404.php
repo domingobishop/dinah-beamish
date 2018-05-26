@@ -1,14 +1,3 @@
-<?php
-/**
- * Error 404 Template
- *
- *
- * @file           404.php
- * @package        blankcanvas
- * @author         Chris Bishop
- * @link           http://codex.wordpress.org/Creating_an_Error_404_Page
- */
-?>
 <?php get_header(); ?>
 
     <div id="content" class="bc-content" role="main">
