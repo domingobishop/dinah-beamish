@@ -88,3 +88,15 @@ function get_feature_image_as_bg( $size = 'full' ) {
         return false;
     }
 }
+
+function bc_footer_widgets() {
+    register_sidebar( array(
+        'name' => 'Footer' ,
+        'id' => 'bc-footer-widgets',
+        'description' => __( 'Appears in footer' ),
+        'before_widget' => '<div id="%1$s" class="footer-widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>',
+    ) );
+}

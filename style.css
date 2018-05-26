@@ -156,11 +156,16 @@ footer .site-info {
  * Home
  * ----------------------------------------------------------------------------
  */
-.carousel {
+.slider {
     margin-bottom: 1.6em;
 }
 .carousel-caption {
     background: rgba(0,0,0,0.5);
+}
+@media (max-width: 480px ) {
+    .carousel-caption p {
+        display: none;
+    }
 }
 
 nav .previous {
