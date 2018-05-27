@@ -23,7 +23,7 @@
                     <div class="col-md-12">
                         <a href="<?php echo home_url(); ?>/"
                            title="<?php bloginfo('name'); ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>" class="img-responsive">
                         </a>
                     </div>
                 </div>
